@@ -1,0 +1,8 @@
+- Initialize `backend/` with a FastAPI app skeleton and endpoints for creating and joining a game session.
+- Add puzzle placeholder loading (one puzzle file) and return it on game start.
+- Use Supabase for user auth and storing simple game session state (players, puzzle seed, progress).
+- Set up `frontend/` with React + Vite; page flow for lobby -> puzzle board.
+- Show a leaderboard header updating via Supabase Realtime channels.
+- Implement basic puzzle grid component with "Validate" button that applies time penalty.
+- Allow reconnecting by restoring player board state from the DB.
+- Provide minimal Docker Compose to run frontend and backend together.
